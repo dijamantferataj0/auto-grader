@@ -18,4 +18,9 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AutoGrader.Services\AutoGrader.Services.csproj" />
+    <ProjectReference Include="..\AutoGrader.Domain\AutoGrader.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
